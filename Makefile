@@ -1,2 +1,3 @@
 run:
-	go run ./cmd/main.go
+	@go build -o bin/nag .
+	@./bin/nag
